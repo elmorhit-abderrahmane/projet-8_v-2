@@ -1,75 +1,88 @@
-body{
-margin: 0;
-padding: 0;
-background-image: url(https://thumbs.dreamstime.com/z/planks-dark-old-wood-texture-background-170515350.jpg);
-font-family: 'Droid Sans', sans-serif;
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url(https://thumbs.dreamstime.com/z/planks-dark-old-wood-texture-background-170515350.jpg);
+  font-family: "Droid Sans", sans-serif;
 }
-header{
-	box-shadow: -1px 1px 20px 1px black;
+header {
+  box-shadow: -1px 1px 20px 1px black;
 }
-.studentsList{
-	margin: 0;
-	padding: 0;
+.downArrow {
+  padding: 20px 40px;
+  border-radius: 10px;
+  
+  border: none;
+  color: #fff;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 9, 121, 1) 35%,
+    rgba(0, 212, 255, 1) 100%
+  );
 }
-li{
-	margin:35px;
-	padding:20px;
-	list-style-type: none;
-  border: 1px solid  #abafab;
-	max-width: 300px;
-	float: left;
-	box-shadow: 10px 9px 16px 5px rgba(0, 0, 0, 0.24);
-	color: #fff;
-	background-image:url(https://i.pinimg.com/564x/d5/c8/7c/d5c87c9160550d386791069339bbd762.jpg) ;
+.studentsList {
+  margin: 0;
+  padding: 0;
+}
+li {
+  margin: 35px;
+  padding: 20px;
+  list-style-type: none;
+  border: 1px solid #abafab;
+  max-width: 300px;
+  float: left;
+  box-shadow: 10px 9px 16px 5px rgba(0, 0, 0, 0.24);
+  color: #fff;
+  background-image: url(https://i.pinimg.com/564x/d5/c8/7c/d5c87c9160550d386791069339bbd762.jpg);
 }
 
-
-.heading{
-	text-align: center;
-	background-image: url(https://thumbs.dreamstime.com/z/planks-dark-old-wood-texture-background-170515350.jpg);
-	width: 100%;
-	height: auto;
-	margin: 0;
-	padding: 20px;
-	color: white;
-	box-shadow: 1px 0px 10px 4px rgba(22, 22, 23, 0.38);
-	text-shadow: -1px 1px 3px black;
+.heading {
+  text-align: center;
+  background-image: url(https://thumbs.dreamstime.com/z/planks-dark-old-wood-texture-background-170515350.jpg);
+  width: 100%;
+  height: auto;
+  margin: 0;
+  padding: 20px;
+  color: white;
+  box-shadow: 1px 0px 10px 4px rgba(22, 22, 23, 0.38);
+  text-shadow: -1px 1px 3px black;
 }
-.addForm-head{
-	text-align: center;
-	padding: 10px;
-	margin: 0;
-	color: #3399cc;
-	text-shadow: -1px 1px 3px black;
+.addForm-head {
+  text-align: center;
+  padding: 10px;
+  margin: 0;
+  color: #3399cc;
+  text-shadow: -1px 1px 3px black;
 }
-.arrow{
-	background-image: url(https://thumbs.dreamstime.com/z/planks-dark-old-wood-texture-background-170515350.jpg);
-	width: 100%;
-	height: auto;
+.arrow {
+  background-image: url(https://thumbs.dreamstime.com/z/planks-dark-old-wood-texture-background-170515350.jpg);
+  width: 100%;
+  height: auto;
 }
-.arrow:hover{
-	cursor: pointer;
+.arrow:hover {
+  cursor: pointer;
 }
-.add-form{
-	display: none;
+.add-form {
+  display: none;
   width: 100%;
   height: auto;
   max-width: 500px;
-  background-color:black;
+  background-color: black;
   padding: 20px;
   border: 1px solid white;
   margin: 0 auto;
 }
-.close{
-float: right;
-margin-top: -70px;
-margin-right: -18px;
+.close {
+  float: right;
+  margin-top: -70px;
+  margin-right: -18px;
 }
-*{
+* {
   box-sizing: border-box;
 }
 /*input-fields*/
-input{
+input {
   width: 100%;
   padding: 10px;
   margin: 8px 0;
@@ -77,56 +90,61 @@ input{
   font-size: 14px;
   border-radius: 5px;
 }
-label{
+label {
   font-size: 18px;
   color: white;
 }
 /*submitButton*/
-.submit-student{
+.submit-student {
   padding: 10px;
   width: 100%;
-  background-color:#3399cc;
+  background-color: #3399cc;
   cursor: pointer;
-  -webkit-border-radius:5px;
+  -webkit-border-radius: 5px;
   border: none;
   font-size: 15px;
   margin: 0 auto;
   text-align: center;
   color: white;
 }
-.submitBtn:hover{
-  background-color:#ff8533;
+.submitBtn:hover {
+  background-color: #ff8533;
 }
-.edit-form{
-	display: none;
-	width: 100%;
-	height: auto;
-	max-width: 500px;
-	background-color:black;
-	padding: 20px;
-	border: 1px solid white;
-	margin: 0 auto;
+.edit-form {
+  display: none;
+  width: 100%;
+  height: auto;
+  max-width: 500px;
+  background-color: black;
+  padding: 20px;
+  border: 1px solid white;
+  margin: 0 auto;
 }
-.save-student{
-	padding: 10px;
-	width: 100%;
-	background-image: url(https://thumbs.dreamstime.com/z/planks-dark-old-wood-texture-background-170515350.jpg);
-	cursor: pointer;
-	-webkit-border-radius:5px;
-	border: none;
-	font-size: 15px;
-	margin: 0 auto;
-	text-align: center;
-	color: white;
+.save-student {
+  padding: 10px;
+  width: 100%;
+  background-image: url(https://thumbs.dreamstime.com/z/planks-dark-old-wood-texture-background-170515350.jpg);
+  cursor: pointer;
+  -webkit-border-radius: 5px;
+  border: none;
+  font-size: 15px;
+  margin: 0 auto;
+  text-align: center;
+  color: white;
 }
-h2,h3,h4,h5{
-	margin: 0;
-	padding: 0;
+h2,
+h3,
+h4,
+h5 {
+  margin: 0;
+  padding: 0;
 }
-h4,h5,h6{
-	font-size: 18px;
+h4,
+h5,
+h6 {
+  font-size: 18px;
 }
-h6{
-	margin: 0;
-	margin-bottom: 15px;
+h6 {
+  margin: 0;
+  margin-bottom: 15px;
 }
