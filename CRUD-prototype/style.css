@@ -10,7 +10,7 @@ header {
 .downArrow {
   padding: 20px 40px;
   border-radius: 10px;
-  
+
   border: none;
   color: #fff;
   background: rgb(2, 0, 36);
@@ -35,6 +35,36 @@ li {
   box-shadow: 10px 9px 16px 5px rgba(0, 0, 0, 0.24);
   color: #fff;
   background-image: url(https://i.pinimg.com/564x/d5/c8/7c/d5c87c9160550d386791069339bbd762.jpg);
+}
+.update-btn {
+  padding: 10px;
+  width: 80px;
+  height: 40px;
+  background-color: rgba(42, 42, 212, 0.85);
+  color: white;
+  text-align: center;
+  font-size: 18px;
+  border-radius: 15px;
+  margin: 0 10px;
+}
+.delete-btn {
+  padding: 10px;
+  width: 80px;
+  height: 40px;
+  background-color: rgba(236, 12, 12, 0.82);
+  color: white;
+  text-align: center;
+  font-size: 18px;
+  border-radius: 15px;
+  margin: 0 25px;
+}
+.delete-btn:hover {
+  cursor: pointer;
+  background-color: rgba(236, 12, 12, 0.56);
+}
+.update-btn:hover {
+  cursor: pointer;
+  background-color: rgba(42, 42, 212, 0.57);
 }
 
 .heading {
